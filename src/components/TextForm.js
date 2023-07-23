@@ -1,3 +1,5 @@
+//add a copy text button
+
 import React, { useState } from 'react';
 
 export default function TextForm(props) {
@@ -24,7 +26,6 @@ export default function TextForm(props) {
         setText(result);
     }
 
-    
   }
   const handleOnChange = (event) => {
     setText(event.target.value);

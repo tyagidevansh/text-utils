@@ -36,3 +36,18 @@
     transform: rotate(360deg);
   }
 }
+
+:root {
+  --background-color: white; /* Default background color */
+  --text-color: black; /* Default text color */
+}
+
+.dark-mode {
+  --background-color: black; /* Dark mode background color */
+  --text-color: white; /* Dark mode text color */
+}
+
+.container {
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
